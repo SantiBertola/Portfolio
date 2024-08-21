@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Navbar onToggleTheme={handleThemeToggle} isDarkMode={isDarkMode}/>
-      <AboutMe />
+      <AboutMe isDarkMode={isDarkMode}/>
     </>
   )
 }

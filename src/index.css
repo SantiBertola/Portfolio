@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales personalizados */
+body {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+a {
+  @apply text-[#038C73] hover:text-[#02735E];
+}
+
+h1 {
+  @apply font-bold;
+  @apply text-[#038C73] hover:text-[#02735E];
+}
+
+.container {
+  @apply mx-auto px-4;
+} 
